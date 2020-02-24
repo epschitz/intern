@@ -9,3 +9,4 @@ before_script:
 
 script:
   - bin/phpunit
+  - vendor/squizlabs/php_codesniffer/bin/phpcs src
