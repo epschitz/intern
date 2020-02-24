@@ -1,4 +1,6 @@
 {
+    "name": "epschitz/intern",
+    "description": "A project where I can test all good stuff",
     "type": "project",
     "license": "proprietary",
     "require": {
