@@ -20,8 +20,5 @@ jobs:
     # - name: Run test suite
     #   run: composer run-script test
 
-    - name: PHPCodeSniffer
-      uses: rtCamp/action-phpcs-inspection@v1.0.0
-
     - name: PHPUnit (php-actions)
       uses: php-actions/phpunit@v1
