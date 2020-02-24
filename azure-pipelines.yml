@@ -25,7 +25,7 @@ steps:
 - script: composer install --no-interaction --prefer-dist
   displayName: 'composer install'
 
-- script: bin/phpunit
+- script: phpunit
   displayName: 'Run tests with phpunit'
 
 - script: vendor/squizlabs/php_codesniffer/bin/phpcs src/
