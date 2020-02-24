@@ -9,4 +9,4 @@ before_script:
 
 script:
   - bin/phpunit
-  - vendor/squizlabs/php_codesniffer/bin/phpcs src
+  - vendor/squizlabs/php_codesniffer/bin/phpcs --standard=PSR2 src
